@@ -3,6 +3,7 @@
     --header-color:#0E2A47;
     --primary-color:#1735B3;
     --secondary-color:#132E65;
+    --button-color:turquoise;
 }
 
 *{
@@ -28,7 +29,6 @@
 
 .home-container .nav-link {
     height: 100px;
-    /* background-color: turquoise; */
     color: white;
     margin-left: 1100px;
     margin-top: -60px;
@@ -39,10 +39,10 @@
     /* display: flex; */
     /* margin-top: -30px; */
     /* margin-left: 20px; */
-    
-    font-size: 20px;
+    /* font-size: 20px; */
+    background-color: var(--secondary-color);
     text-decoration: none;
-    color: wheat;
+    color: white;
     border: 2px solid var(--primary-color);
     padding: 15px;
     border-radius: 10px;
@@ -60,19 +60,23 @@
 .home-container .nav .nav-link a:hover{
     background-color: white;
     border-color: var(--secondary-color);
-    color: #1735B3;
-    box-shadow: 1px 2px 1px #1735B3;
+    color: var(--primary-color);
+    box-shadow: 1px 2px 1px var(--primary-color);
     
 }
 .home-container .nav .nav-link  a:active{
-    background-color: yellow;
-    color: tomato;
+    background-color: var(--button-color);
+   
 }
+
 #active-button{
-    background-color: #1735B3 ;
+    background-color: var(--button-color) ;
+    color: white;
+    box-shadow: 1px 2px 1px var(--primary-color);
 }
 #active-button:hover{
-    color: white;
+    color: var(--primary-color);
+    
 }
 
 .main-container{
@@ -93,15 +97,18 @@
 .main-container .main-text .primary-button {
     font-size: 20px;
     margin: 70px;
-    color: #1735B3;
-    border: 2px solid #1735B3;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    /* border: 2px solid var(--primary-color); */
+    padding: 15px;
+    border-radius: 10px;
 }
 .main-container .main-text .primary-button:hover{
     cursor: pointer;
     background-color: white;
     border-color: var(--secondary-color);
-    color: #1735B3;
-    box-shadow: 1px 2px 1px #1735B3;
+    color: var(--primary-color);
+    box-shadow: 1px 2px 1px var(--primary-color);
     
 
 }
@@ -110,7 +117,7 @@
     /* background-color: red; */
     height: 130px;
     /* font-size: 30px; */
-    background-color: #0E2A47;
+    background-color: var(--header-color);
     border: 2px solid var(--secondary-color) ;
     border-radius: 0px 50px 0px 0px; 
     display: flex;
@@ -123,10 +130,12 @@
 .footer a{
     font-size: 30px;
     text-decoration: none;
-    color: turquoise;
+    /* color: var(--button-color); */
+    color: white;
     margin-left: 10px;
 }
  .footer a i{ 
     margin-left: 5px;
-    color: turquoise;
+    color: white;
+    /* color: var(--button-color); */
 } 
