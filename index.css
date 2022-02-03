@@ -3,6 +3,16 @@
     --primary-color: #1735B3;
     --secondary-color: #132E65;
     --button-color: turquoise;
+    --success-color:#84cc16;
+    --success-text-color:#65a30d;
+    --warning-color: #F8B807;
+    --danger-color: #ef4444;
+    --danger-text-color:#dc2626;
+    --info-color:#06b6d4;
+    --info-text-color:#0891b2;
+    --alert-primary-color:#29438b;
+    --alert-secondary-color:#696b79;
+    
 }
 
 * {
@@ -31,6 +41,8 @@ body {
     color: white;
     margin-left: 1100px;
     margin-top: -60px;
+    
+    
 }
 
 .home-container .nav .nav-link a {
@@ -139,13 +151,11 @@ p {
 .footer a {
     font-size: 30px;
     text-decoration: none;
-    /* color: var(--button-color); */
     color: white;
     margin-left: 10px;
 }
 
 .footer a i {
     margin-left: 5px;
-    color: white;
-    /* color: var(--button-color); */
+    color: white;  
 }
