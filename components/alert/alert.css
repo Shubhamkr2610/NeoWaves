@@ -2,15 +2,15 @@
 @import url("sidebar.css");
 
 *{
-    margin:0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 body{
     background-image: none;
 }
 
 .alert-sidebar-main-container{
-    margin: 50px 0px 0px 0px;
+    margin: 3.12rem 0rem 0rem 0rem;
     display: flex;
 }
 
@@ -19,8 +19,7 @@ body{
 }
 .alert{
     text-align: center;
-    padding: 0px 20px 0px 20px;
-    /* background-color: turquoise; */
+    padding: 0rem 1.25rem 0 1.25rem;
     height: 3.5rem;
     width: 30rem;
     margin-top: 1rem;
