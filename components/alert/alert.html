@@ -21,9 +21,10 @@
             </div>
 
             <div class="nav-link">
-                <a href="/" id="active-button">Home</a>
-                <a href="/">Documentation</a>
-                <a href="https://github.com/Shubhamkr2610/NeoWaves" target="_blank">View Source</a>
+                <a class="header-button" href="/" id="active-button">Home</a>
+                <a class="header-button" href="/">Documentation</a>
+                <a class="header-button" href="https://github.com/Shubhamkr2610/NeoWaves" target="_blank">View
+                    Source</a>
             </div>
 
         </nav>
@@ -40,30 +41,30 @@
             <div class="aside-container ">
                 <ul class="aside-left-list">
                     <h3 class="aside">Getting Started</h3>
-                    <li class="aisde-link">
-                        <a class="link" href="#">Introduction</a>
+                    <li class="aside-link">
+                        <a class="sidebar-link" href="#" >Installation</a>
                     </li>
                 </ul>
             </div>
 
 
             <div class="sidebar">
-                <ul>
-                    <h3>Components</h3>
+                <ul class="aside-left-list">
+                    <h3 class="aside">Components</h3>
 
-                    <li><a href="#">Alert</a></li>
+                    <li class="aside-link"><a href="#" class="sidebar-link">Alert</a></li>
 
-                    <li> <a href="#">Avater</a></li>
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Avater</a></li>
 
-                    <li> <a href="#">Badge</a></li>
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Badge</a></li>
 
-                    <li> <a href="#">Button</a></li>
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Button</a></li>
 
-                    <li> <a href="#">Card</a></li>
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Card</a></li>
 
-                    <li> <a href="#">Image</a></li>
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Image</a></li>
 
-                    <li> <a href="#">Forms</a></li>
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Forms</a></li>
                 </ul>
             </div>
         </aside>
@@ -74,8 +75,8 @@
 
         <!---------------------------------main context start------------------->
         <div class="alert-content">
-            <h1>Alert</h1>
-            <p>Alert is mostly used to give a warning message to the users. The alert message takes the focus and forces
+            <h1 class="alert-title">Alert</h1>
+            <p class="alert-subtitle">Alert is mostly used to give a warning message to the users. The alert message takes the focus and forces
                 the
                 user to read the specified message.</p>
             <div class="alert-success alert">
@@ -98,10 +99,10 @@
             </div>
             <br>
             <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28233%2C233%2C244%2C1%29&t=cobalt&wt=none&l=django&width=700&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-success%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuccess%2520alert%2520message%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-warning%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EWarning%2520alert%2520message%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-danger%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EDanger%2520alert%2520message%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-info%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EInfo%2520alert%2520message%253C%252Fp%253E%250A%2509%2520%2520%253C%252Fdiv%253E%250A%250A%2509%2520%2520%253Cdiv%2520class%253D%2522alert-primary%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EPrimary%2520alert%2520message%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-secondary%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESecondary%2520alert%2520message%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-            style="width: 700px; height: 597px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
+                src="https://carbon.now.sh/embed?bg=rgba%28233%2C233%2C244%2C1%29&t=cobalt&wt=none&l=django&width=700&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-success%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuccess%2520alert%2520message%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-warning%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EWarning%2520alert%2520message%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-danger%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EDanger%2520alert%2520message%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-info%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EInfo%2520alert%2520message%253C%252Fp%253E%250A%2509%2520%2520%253C%252Fdiv%253E%250A%250A%2509%2520%2520%253Cdiv%2520class%253D%2522alert-primary%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EPrimary%2520alert%2520message%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-secondary%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESecondary%2520alert%2520message%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 700px; height: 597px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
         </div>
 
     </div>
@@ -114,12 +115,15 @@
     <!--------------------------------footer starts------------------------>
     <footer class="footer">
 
-        <h2>Made with ❤️ by shubham</p>
-            <h3>connect with me 👇 </p>
-                <a href="https://github.com/Shubhamkr2610" target="_blank" >github<i class="fab fa-github-square"></i></a>
-                <a href="https://twitter.com/shubhamkr_26" target="_blank" >twitter<i class="fab fa-twitter-square"></i>
-                </a>
-                <a href="https://www.instagram.com/i_subhu/" target="_blank">instagram<i class="fab fa-instagram"></i></a>
+        <h2>Made with ❤️ by shubham</h2>
+        <h3>connect with me 👇 </h3>
+        <a href="https://github.com/Shubhamkr2610" target="_blank" class="social-link">github<i
+                class="fab fa-github-square"></i></a>
+        <a href="https://twitter.com/shubhamkr_26" target="_blank" class="social-link">twitter<i
+                class="fab fa-twitter-square"></i>
+        </a>
+        <a href="https://www.instagram.com/i_subhu/" target="_blank" class="social-link">instagram<i
+                class="fab fa-instagram"></i></a>
 
     </footer>
     <!-----------------------------------------------------------footer ends------------------------------->
