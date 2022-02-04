@@ -1,8 +1,6 @@
 .aside-left{
     width: 30%;
     height: 100vh;
-    /* padding: 20px; */
-    /* background-color: rgb(221, 151, 21);   */
 }
 
 h3{
@@ -11,22 +9,20 @@ h3{
 }
 
 a{
-    /* margin-left: 25%; */
     margin-left: 25%;
     font-size: 1.563rem;
     color: var(--secondary-color);
     overflow: visible; 
-    /* height: 70px; */
 }
 
 li{
-    margin-top: 0.625rem;
-    margin-bottom: 0.625rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 a:hover{
     text-decoration: underline;
-    padding: 0.125rem;
+    padding: 2px;
     
 }
 
