@@ -1,10 +1,6 @@
 @import url("/index.css");
-@import url("sidebar.css");
+@import url("/components/alert/sidebar.css");
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
 body{
     background-image: none;
 }
@@ -15,11 +11,19 @@ body{
 }
 
 .alert-content{
-    margin-left: 5%;
+    margin-left: 70px;
+}
+.alert-title{
+   font-size: 2.25rem;
+}
+.alert-subtitle{
+    font-size: 25px;
 }
 .alert{
+    font-size: 1.875rem;
     text-align: center;
-    padding: 0rem 1.25rem 0 1.25rem;
+    font-weight: bold;
+    padding: 8px 0px 0px 0px;
     height: 3.5rem;
     width: 30rem;
     margin-top: 1rem;
