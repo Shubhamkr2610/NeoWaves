@@ -1,0 +1,28 @@
+.aside-left{
+    width: 30%;
+    height: 100vh;
+}
+
+h3{
+    font-size: 1.875rem;
+    text-align: center;
+}
+
+a{
+    margin-left: 25%;
+    font-size: 1.563rem;
+    color: var(--secondary-color);
+    overflow: visible; 
+}
+
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+    padding: 2px;
+    
+}
+

@@ -1,0 +1,52 @@
+@import url("/index.css");
+@import url("sidebar.css");
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: none;
+}
+
+.alert-sidebar-main-container{
+    margin: 3.12rem 0rem 0rem 0rem;
+    display: flex;
+}
+
+.alert-content{
+    margin-left: 5%;
+}
+.alert{
+    text-align: center;
+    padding: 0rem 1.25rem 0 1.25rem;
+    height: 3.5rem;
+    width: 30rem;
+    margin-top: 1rem;
+}
+
+.alert-success{
+    border: 3px solid var(--success-color);
+    color: var(--success-text-color);
+}
+.alert-warning{
+    border: 3px solid var(--warning-color);
+    color: var(--warning-color);
+}
+.alert-danger{
+    border: 3px solid var(--danger-color);
+    color: var(--danger-text-color);
+}
+.alert-info{
+    border: 3px solid var(--info-color);
+    color: var( --info-text-color);
+}
+.alert-primary{
+    border: 3px solid var(--alert-primary-color);
+    color: var(--alert-primary-color);
+}
+.alert-secondary{
+    border: 3px solid var(--alert-secondary-color);
+    color: var(--alert-secondary-color);
+}
+

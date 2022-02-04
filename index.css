@@ -3,18 +3,29 @@
     --primary-color: #1735B3;
     --secondary-color: #132E65;
     --button-color: turquoise;
+    --success-color:#84cc16;
+    --success-text-color:#65a30d;
+    --warning-color: #F8B807;
+    --danger-color: #ef4444;
+    --danger-text-color:#dc2626;
+    --info-color:#06b6d4;
+    --info-text-color:#0891b2;
+    --alert-primary-color:#29438b;
+    --alert-secondary-color:#696b79;
+    
 }
 
 * {
     padding: 0;
     margin: 0;
+    list-style: none;
+    text-decoration: none;
     box-sizing: border-box;
 }
 
 body {
     background-image: url("/assets/images/background-image.svg");
     font-family: sans-serif;
-    /* background-color: #0E2A47; */
 }
 
 .home-container {
@@ -34,10 +45,6 @@ body {
 }
 
 .home-container .nav .nav-link a {
-    /* display: flex; */
-    /* margin-top: -30px; */
-    /* margin-left: 20px; */
-    /* font-size: 20px; */
     background-color: var(--secondary-color);
     text-decoration: none;
     color: white;
@@ -86,9 +93,7 @@ body {
     display: flex;
     margin-top: 100px;
     margin-left: 50px;
-    /* width: 500px; */
     text-align: left;
-    /* background-color: tomato; */
 }
 
 .main-container .main-text {
@@ -105,7 +110,6 @@ p {
     margin: 70px;
     color: var(--primary-color);
     border: 2px solid var(--primary-color);
-    /* border: 2px solid var(--primary-color); */
     padding: 15px;
     border-radius: 10px;
     transition: .4s;
@@ -122,15 +126,12 @@ p {
 }
 
 .footer {
-    /* background-color: red; */
     height: 130px;
-    /* font-size: 30px; */
     background-color: var(--header-color);
     border: 2px solid var(--secondary-color);
     border-radius: 0px 50px 0px 0px;
     display: flex;
     flex-direction: column;
-    /* text-align: center; */
     align-items: center;
     color: white;
 
@@ -139,13 +140,11 @@ p {
 .footer a {
     font-size: 30px;
     text-decoration: none;
-    /* color: var(--button-color); */
     color: white;
     margin-left: 10px;
 }
 
 .footer a i {
     margin-left: 5px;
-    color: white;
-    /* color: var(--button-color); */
+    color: white;  
 }
