@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge</title>
+    <link rel="stylesheet" href="badge.css">
+    <script src="https://kit.fontawesome.com/0b2d218a52.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-------------------------------------------header starts------------------------------------->
+    <div class="home-container">
+        <nav class="nav">
+            <div class="nav-logo">
+                <i class="fab fa-neos"></i>
+                <h3 class="logo-letter">E<i class="fab fa-uikit"></i>S-UI</h3>
+            </div>
+
+            <div class="nav-link">
+                <a class="header-button" href="/" id="active-button">Home</a>
+                <a class="header-button" href="/">Documentation</a>
+                <a class="header-button" href="https://github.com/Shubhamkr2610/NeoWaves" target="_blank">View
+                    Source</a>
+            </div>
+
+        </nav>
+
+    </div>
+    <!------------------------------------------header ends------------------------------------------>
+
+    <!-----------------------------sidebar left starts---------------------->
+    <div class="aside-sidebar-main-container">
+
+        <aside class="aside-left">
+
+            <div class="aside-container ">
+                <ul class="aside-left-list">
+                    <h3 class="aside">Getting Started</h3>
+                    <li class="aside-link">
+                        <a class="sidebar-link" href="#">Installation</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="sidebar">
+                <ul class="aside-left-list">
+                    <h3 class="aside">Components</h3>
+
+                    <li class="aside-link"><a href="/components/alert/alert.html" class="sidebar-link">Alert</a></li>
+
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Avater</a></li>
+
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Badge</a></li>
+
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Button</a></li>
+
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Card</a></li>
+
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Image</a></li>
+
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Forms</a></li>
+                </ul>
+            </div>
+        </aside>
+        <hr>
+        <!----------------------------------sidebar left ends------------------->
+
+        <!---------------------------------main context start------------------->
+        <main>
+            <div class="badge-content">
+
+                <h1 class="badge-title">Badge</h1>
+                <hr>
+                <p class="badge-subtitle">Badge can be used to show either status of the user (online, or offline) or
+                    you can use it show notification count.</p>
+                <p class="badge-subtitle">Number badges on icons is commonly used pattern to display number counts of
+                    notification or any other countable thing.</p>
+                <p class="badge-subtitle">We have different badges that can be used with avatar.</p>
+
+
+                <div class="badge-icon">
+
+                    <div class="bell-icon icon">
+                        <a href="#"><i class="fas fa-bell"></i></a>
+                        <h5 class="symbol1 symbol">2</h5>
+
+                    </div>
+                    <div class="home-icon icon">
+                        <a href="#"><i class="fas fa-home"></i></a>
+                        <h5 class="symbol2 symbol">7</h5>
+
+                    </div>
+                    <div class="cart-icon icon">
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <h5 class="symbol3 symbol">5</h5>
+
+                    </div>
+                    <div class="mail-icon icon">
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                        <h5 class="symbol4 symbol">9</h5>
+
+                    </div>
+                    <div class="avatar-icon icon">
+                        <img src="/assets/images/avatar-badge.png" alt="Avatar" class="avatar">
+                        <h5 class="symbol5 symbol">3</h5>
+                    </div>
+                    <div class="text-icon icon">
+                        <h2>info</h2>
+                        <h5 class="symbol6 symbol">12</h5>
+                    </div>
+
+                </div>
+                <br>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28223%2C227%2C231%2C1%29&t=cobalt&wt=none&l=django&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2522%253E%250A%2520%2520%2509%2509%253Cdiv%2520class%253D%2522bell-icon%2520icon%2522%253E%250A%2509%2509%2509%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bell%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2509%2509%2509%253Ch5%2520class%253D%2522symbol1%2520symbol%2522%253E2%253C%252Fh5%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%250A%2509%2509%253Cdiv%2520class%253D%2522home-icon%2520icon%2522%253E%250A%2509%2509%2509%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2509%2509%2509%253Ch5%2520class%253D%2522symbol2%2520symbol%2522%253E7%253C%252Fh5%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%250A%2509%2509%253Cdiv%2520class%253D%2522cart-icon%2520icon%2522%253E%250A%2509%2509%2509%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2509%2509%2509%2520%253Ch5%2520class%253D%2522symbol3%2520symbol%2522%253E5%253C%252Fh5%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%250A%2509%2509%253Cdiv%2520class%253D%2522mail-icon%2520icon%2522%253E%250A%2509%2509%2509%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2509%2509%2509%2520%253Ch5%2520class%253D%2522symbol4%2520symbol%2522%253E9%253C%252Fh5%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%250A%2509%2509%253Cdiv%2520class%253D%2522avatar-icon%2520icon%2522%253E%250A%2509%2509%2509%2520%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252Favatar-badge.png%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Avatar%2522%2520class%253D%2522avatar%2522%253E%250A%2509%2509%2509%2520%253Ch5%2520class%253D%2522symbol5%2520symbol%2522%253E3%253C%252Fh5%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-icon%2520icon%2522%253E%250A%2509%2509%2509%2520%253Ch2%253Einfo%253C%252Fh2%253E%250A%2509%2509%2509%2520%253Ch5%2520class%253D%2522symbol6%2520symbol%2522%253E12%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2509%2520%253C%252Fdiv%253E"
+                    style="width: 800px; height: 783px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+
+
+
+            </div>
+        </main>
+
+    </div>
+
+    <!---------------------------------------------------------footer starts----------------------------->
+    <footer class="footer">
+
+        <h3>Made with ❤️ by shubham</h3>
+        <h4>connect with me 👇 </h4>
+
+        <a href="https://github.com/Shubhamkr2610" target="_blank" class="social-link">github<i
+                class="fab fa-github-square"></i></a>
+        <a href="https://twitter.com/shubhamkr_26" target="_blank" class="social-link">twitter<i
+                class="fab fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com/i_subhu/" target="_blank" class="social-link">instagram<i
+                class="fab fa-instagram"></i></a>
+
+    </footer>
+    <!-----------------------------------------------------------footer ends------------------------------->
+
+</body>
+
+</html>

@@ -28,8 +28,12 @@ body {
     font-family: sans-serif;
 }
 
-.home-container {
+main{
+    min-height: 100vh;
     
+}
+.home-container {
+    height: 20vh;
     width: 100%;
     background-color: var(--header-color);
     border: 2px solid var(--secondary-color);
@@ -130,7 +134,8 @@ body {
 }
 
 .footer {
-    height: 130px;
+    height: 25vh;
+    width: 100%;
     background-color: var(--header-color);
     border: 2px solid var(--secondary-color);
     border-radius: 0px 50px 0px 0px;
