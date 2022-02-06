@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    
+
 
     <!-------------------------------------------header starts------------------------------------->
     <div class="home-container">
@@ -35,29 +35,30 @@
 
 
     <!-----------------------------sidebar left starts---------------------->
-    <div class="alert-sidebar-main-container">
+    <div class="aside-main-container">
 
         <aside class="aside-left">
 
             <div class="aside-container ">
+                <h3 class="aside">Getting Started</h3>
                 <ul class="aside-left-list">
-                    <h3 class="aside">Getting Started</h3>
+
                     <li class="aside-link">
-                        <a class="sidebar-link" href="#" >Installation</a>
+                        <a class="sidebar-link" href="#">Installation</a>
                     </li>
                 </ul>
             </div>
 
 
             <div class="sidebar">
-                <ul class="aside-left-list">
-                    <h3 class="aside">Components</h3>
+                <h3 class="aside">Components</h3>
 
-                    <li class="aside-link"><a href="#" class="sidebar-link">Alert</a></li>
+                <ul class="aside-left-list">
+                    <li class="aside-link"><a href="/components/alert/alert.html" class="sidebar-link">Alert</a></li>
 
                     <li class="aside-link"> <a href="#" class="sidebar-link">Avater</a></li>
 
-                    <li class="aside-link"> <a href="#" class="sidebar-link">Badge</a></li>
+                    <li class="aside-link"> <a href="/components/badge/badge.html" class="sidebar-link">Badge</a></li>
 
                     <li class="aside-link"> <a href="#" class="sidebar-link">Button</a></li>
 
@@ -75,36 +76,39 @@
 
 
         <!---------------------------------main context start------------------->
-        <div class="alert-content">
-            <h1 class="alert-title">Alert</h1>
-            <p class="alert-subtitle">Alert is mostly used to give a warning message to the users. The alert message takes the focus and forces
-                the
-                user to read the specified message.</p>
-            <div class="alert-success alert">
-                <p>Success alert message!!!</p>
+        <main>
+            <div class="alert-content">
+                <h1 class="alert-title">Alert</h1>
+                <p class="alert-subtitle">Alert is mostly used to give a warning message to the users. The alert message
+                    takes the focus and forces
+                    the
+                    user to read the specified message.</p>
+                <div class="alert-success alert">
+                    <p>Success alert message!!!</p>
+                </div>
+                <div class="alert-warning alert">
+                    <p>Warning alert message!!!</p>
+                </div>
+                <div class="alert-danger alert">
+                    <p>Danger alert message!!!</p>
+                </div>
+                <div class="alert-info alert">
+                    <p>Info alert message!!!</p>
+                </div>
+                <div class="alert-primary alert">
+                    <p>Primary alert message!!!</p>
+                </div>
+                <div class="alert-secondary alert">
+                    <p>Secondary alert message!!!</p>
+                </div>
+                <br>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28233%2C233%2C244%2C1%29&t=cobalt&wt=none&l=django&width=700&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-success%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuccess%2520alert%2520message%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-warning%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EWarning%2520alert%2520message%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-danger%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EDanger%2520alert%2520message%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-info%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EInfo%2520alert%2520message%253C%252Fp%253E%250A%2509%2520%2520%253C%252Fdiv%253E%250A%250A%2509%2520%2520%253Cdiv%2520class%253D%2522alert-primary%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EPrimary%2520alert%2520message%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-secondary%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESecondary%2520alert%2520message%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 700px; height: 597px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
-            <div class="alert-warning alert">
-                <p>Warning alert message!!!</p>
-            </div>
-            <div class="alert-danger alert">
-                <p>Danger alert message!!!</p>
-            </div>
-            <div class="alert-info alert">
-                <p>Info alert message!!!</p>
-            </div>
-            <div class="alert-primary alert">
-                <p>Primary alert message!!!</p>
-            </div>
-            <div class="alert-secondary alert">
-                <p>Secondary alert message!!!</p>
-            </div>
-            <br>
-            <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28233%2C233%2C244%2C1%29&t=cobalt&wt=none&l=django&width=700&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-success%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuccess%2520alert%2520message%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-warning%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EWarning%2520alert%2520message%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-danger%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EDanger%2520alert%2520message%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-info%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EInfo%2520alert%2520message%253C%252Fp%253E%250A%2509%2520%2520%253C%252Fdiv%253E%250A%250A%2509%2520%2520%253Cdiv%2520class%253D%2522alert-primary%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EPrimary%2520alert%2520message%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-secondary%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESecondary%2520alert%2520message%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                style="width: 700px; height: 597px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-            </iframe>
-        </div>
+        </main>
 
     </div>
 
