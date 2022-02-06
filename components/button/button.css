@@ -1,0 +1,65 @@
+@import url("/index.css");
+@import url("/components/sidebar.css");
+
+body{
+    background-image: none;
+}
+
+.description{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+.button-content{
+    margin-left: 5rem;
+}
+.button-heading{
+    margin-top: 2rem;
+     
+}
+.container{
+    display: flex;
+    height: 8rem;
+    width: 80%;
+    border: 1px solid var(--alert-secondary-color);
+    margin-top: 2rem ;
+    margin-bottom: 2rem;
+    box-shadow: 0px 3px 5px var(--alert-secondary-color);
+}
+.container button{
+    margin-left: 4rem;
+    margin-top: 2.5rem;
+    border: 1px solid;
+    height: 3rem;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    justify-content: space-around;
+}
+.standard-primary {
+    background-color: var(--info-color);
+    
+}
+.standard-secondary {
+    background-color: var(--button-color);
+}
+.standard-error {
+    background-color: var(--danger-text-color);
+}
+.standard-warning {
+    background-color: var(--warning-color);
+}
+.outline-button{
+    display: flex;
+}
+.outline-primary{
+    color: var(--info-color);
+}
+.outline-secondary{
+    color: var(--button-color);
+}
+.outline-error{
+    color: var(--danger-text-color);
+}
+.outline-warning{
+    color: var(--warning-color);
+}
