@@ -1,26 +1,29 @@
-.aside-left{
-    width: 30%;
-    height: 100vh;
-}
 
-h3{
-    font-size: 1.875rem;
+.aside-main-container{
+    margin: 3.12rem 0rem 0rem 0rem;
+    display: flex;
+}
+.aside-left{
+    width: 25rem;
+    height: 100vh;
     text-align: center;
 }
 
-a{
-    margin-left: 25%;
-    font-size: 1.563rem;
+.aside{
+    font-size: 1.875rem;
+  
+}
+.aside-link{
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+.sidebar-link{
+    font-size: 1.625rem;
+    font-weight: bold;
     color: var(--secondary-color);
     overflow: visible; 
 }
-
-li{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-a:hover{
+.sidebar-link:hover{
     text-decoration: underline;
     padding: 2px;
     
