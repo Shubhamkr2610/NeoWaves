@@ -35,6 +35,9 @@ body{
     font-weight: bold;
     justify-content: space-around;
 }
+.container  button:hover{
+    cursor: pointer;
+}
 .standard-primary {
     background-color: var(--info-color);
     
