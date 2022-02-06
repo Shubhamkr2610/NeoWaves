@@ -46,17 +46,19 @@ body{
     height: 2.5rem;
     width: 2.5rem;
 }
+.temp{
+    position: relative;
+    padding: 1rem 1rem  ;
+}
 .symbol{
     border: 1px solid black;
     border-radius: 50%;
     width: 1.563rem;
     height: 1.563rem;
     font-size: 20px;
-    padding: 1px 5px 4px 0px;
-  
-    margin-top: -3.2rem;
-    
-    position: relative;
+    position: absolute;
+    top: 5px;
+    right: 5px;
    
     background-color: var(--danger-text-color);
    
