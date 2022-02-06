@@ -28,7 +28,12 @@ body {
     font-family: sans-serif;
 }
 
+main{
+    min-height: 100vh;
+    
+}
 .home-container {
+    height: 20vh;
     width: 100%;
     background-color: var(--header-color);
     border: 2px solid var(--secondary-color);
@@ -37,21 +42,6 @@ body {
 
 }
 
-.home-container .nav-link {
-    height: 100px;
-    color: white;
-    margin-left: 1100px;
-    margin-top: -60px;
-}
-
-.home-container .nav .nav-link a {
-    background-color: var(--secondary-color);
-    text-decoration: none;
-    color: white;
-    border: 2px solid var(--primary-color);
-    padding: 15px;
-    border-radius: 10px;
-}
 
 .home-container .nav .nav-logo {
     margin-top: 30px;
@@ -60,12 +50,30 @@ body {
     color: white;
     margin-left: 50px;
 }
-
-.logo-letter {
+.home-container .nav .nav-logo .logo-letter {
     margin-top: -10px;
+    font-size: 75px;
 }
 
-.home-container .nav .nav-link a:hover {
+
+.home-container .nav .nav-link .header-button{
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    color: white;
+    border: 2px solid var(--primary-color);
+    padding: 15px;
+    border-radius: 10px;
+}
+.home-container .nav .nav-link {
+    height: 100px;
+    color: white;
+    margin-left: 1100px;
+    margin-top: -60px;
+}
+
+
+
+.home-container .nav .nav-link .header-button:hover {
     background-color: white;
     border-color: var(--secondary-color);
     color: var(--primary-color);
@@ -73,7 +81,7 @@ body {
 
 }
 
-.home-container .nav .nav-link a:active {
+.home-container .nav .nav-link .header-button:active {
     background-color: var(--button-color);
 
 }
@@ -100,7 +108,7 @@ body {
     color: white;
 }
 
-p {
+.context-description {
     margin-top: 10px;
     font-size: 25px;
 }
@@ -126,7 +134,8 @@ p {
 }
 
 .footer {
-    height: 130px;
+    height: 25vh;
+    width: 100%;
     background-color: var(--header-color);
     border: 2px solid var(--secondary-color);
     border-radius: 0px 50px 0px 0px;
@@ -137,14 +146,14 @@ p {
 
 }
 
-.footer a {
+.footer .social-link {
     font-size: 30px;
     text-decoration: none;
     color: white;
     margin-left: 10px;
 }
 
-.footer a i {
+.footer .social-link fab {
     margin-left: 5px;
     color: white;  
 }

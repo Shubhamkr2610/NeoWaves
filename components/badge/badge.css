@@ -1,0 +1,67 @@
+@import url(/index.css);
+@import url(/components/sidebar.css);
+
+body{
+    background-image: none;
+}
+.badge-content{
+    margin-left: 5rem;
+}
+.badge-title{
+    margin-bottom: 5px;
+   font-size: 2.25rem;
+}
+.badge-subtitle{
+    margin-top: 5px;
+    font-size: 1.563rem;
+}
+.badge-icon{
+    
+    background-color: brown;
+    /* height: 300px; */
+    width: 62rem;
+    border: 1px solid gray;
+    margin-top: 50px;
+    padding: 3.125rem 0rem 3.125rem 6.25rem;
+    display: flex;
+    gap: 2rem;
+}
+.icon{
+  
+    background-color: aqua;
+    border: 1px solid rgb(59, 13, 133);
+    padding: 1.875rem;
+    text-align: right;
+    font-size: 2.188rem;
+
+}
+.text-icon{
+    font-size: 1.563rem;
+    color: var(--info-text-color);
+    
+}
+
+
+.avatar-icon img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.temp{
+    position: relative;
+    padding: 1rem 1rem  ;
+}
+.symbol{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 1.563rem;
+    height: 1.563rem;
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+   
+    background-color: var(--danger-text-color);
+   
+}
+
+
