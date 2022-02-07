@@ -19,7 +19,7 @@ body{
     justify-content: space-around;
     height: 12rem;
     width: 80%;
-    border-radius: 2px solid var(--alert-secondary-color);
+    border: 1px solid var(--alert-secondary-color);
     box-shadow: 0px 3px 5px var(--alert-secondary-color);
 }
 .same-size{
