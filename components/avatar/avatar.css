@@ -1,0 +1,62 @@
+@import url("/index.css");
+@import url("/components/sidebar.css");
+
+body{
+    background-image: none;
+}
+.description{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.avatar-main-container{
+    margin-left: 6rem;
+}
+.avatar-icon{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem ;
+    display: flex;
+    justify-content: space-around;
+    height: 12rem;
+    width: 80%;
+    border-radius: 2px solid var(--alert-secondary-color);
+    box-shadow: 0px 3px 5px var(--alert-secondary-color);
+}
+.same-size{
+    border-radius: 50%;
+    height: 7rem;
+    width:7rem;   
+}
+
+.square-size{
+    border-radius: 5px;
+    height: 8rem;
+    width: 8rem;
+}
+.diff-size-avatar{
+    gap: 2rem;
+    justify-content: center;
+}
+
+.xl-size{
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+}
+.l-size{
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+}
+.m-size{
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+}
+.s-size{
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+}
+
+
