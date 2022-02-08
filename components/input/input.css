@@ -1,0 +1,64 @@
+@import url("/index.css");
+@import url("/components/sidebar.css");
+
+body{
+    background-image: none;
+}
+.input-content{
+    margin-left: 5rem;
+}
+.description{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+.textarea-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--alert-secondary-color);
+    padding-top: 1rem;
+    margin-left: 5rem ;
+    margin-bottom: 2rem;
+    padding-left: 10rem;
+    box-shadow: 0px 3px 5px var(--alert-secondary-color);
+}
+.textarea{ 
+    height: 15rem;
+    width: 20rem;
+    font-size: 1.25rem;
+    resize: none;
+}
+.primary-button{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 10px;
+    width: 5rem;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: var(--button-secondary-color);
+    border-radius: 10px;
+    border: none;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form-input{
+    background-color: var(--form-color);
+    padding-left: 1rem;
+    height: 3rem;
+    width: 20rem;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+.alert{
+    color: var(--danger-text-color);
+}
+#primary-input{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.error-button{
+    background-color: var(--danger-text-color);  
+}
