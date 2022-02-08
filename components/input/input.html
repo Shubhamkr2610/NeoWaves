@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <link rel="stylesheet" href="input.css">
+    <script src="https://kit.fontawesome.com/0b2d218a52.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-------------------------------------------header starts------------------------------------->
+    <div class="home-container">
+        <nav class="nav">
+            <div class="nav-logo">
+                <i class="fab fa-neos"></i>
+                <h3 class="logo-letter">E<i class="fab fa-uikit"></i>S-UI</h3>
+            </div>
+
+            <div class="nav-link">
+                <a class="header-button" href="/" id="active-button">Home</a>
+                <a class="header-button" href="/">Documentation</a>
+                <a class="header-button" href="https://github.com/Shubhamkr2610/NeoWaves" target="_blank">View
+                    Source</a>
+            </div>
+
+        </nav>
+
+    </div>
+    <!------------------------------------------header ends------------------------------------------>
+
+    <!-----------------------------sidebar left starts---------------------->
+    <div class="aside-main-container">
+
+        <aside class="aside-left">
+
+            <div class="aside-container ">
+                <h3 class="aside">Getting Started</h3>
+
+                <ul class="aside-left-list">
+                    <li class="aside-link">
+                        <a class="sidebar-link" href="#">Installation</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="sidebar">
+                <h3 class="aside">Components</h3>
+
+                <ul class="aside-left-list">
+                    <li class="aside-link"><a href="/components/alert/alert.html" class="sidebar-link">Alert</a></li>
+
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Avater</a></li>
+
+                    <li class="aside-link"> <a href="/components/badge/badge.html" class="sidebar-link">Badge</a></li>
+
+                    <li class="aside-link"> <a href="/components/button/button.html" class="sidebar-link">Button</a>
+                    </li>
+
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Card</a></li>
+
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Image</a></li>
+
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Forms</a></li>
+                </ul>
+            </div>
+        </aside>
+        <hr>
+        <!----------------------------------sidebar left ends------------------->
+
+        <!---------------------------------main context start------------------->
+        <div class="input-content">
+            <h1>Input</h1>
+            <hr>
+            <p class="description">Input are used to fill form by users or to take feedback from users also we uses
+                inputs to take user information .</p>
+            <br>
+            <h2 class="input-heading">Text area</h2>
+            <br>
+            <div class="textarea-container">
+                <textarea class="textarea" placeholder="Type Your Message Here"></textarea>
+                <button class="primary-button "><i class="fas fa-paper-plane"></i>Send</button>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28223%2C227%2C231%2C1%29&t=cobalt&wt=none&l=django&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%253Cdiv%2520class%253D%2522textarea-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522textarea%2522%2520placeholder%253D%2522Type%2520Your%2520Message%2520Here%2522%253E%2509%2509%2509%2520%253C%252Ftextarea%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primary-button%2520%2522%253E%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%2509%2509%2509%2509%2520%253C%252Fi%253ESend%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 800px; height: 282px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <br>
+            <h2 class="input-heading">Form Input</h2>
+            <br>
+            <div class="textarea-container">
+                <form class="form">
+                    <input class="form-input" id="primary-input" type="email" name="email-id"
+                        placeholder="Enter Your Email-Id">
+                    <input class="form-input" type="password" name="password" placeholder="Enter Your Password">
+                    <button class="primary-button error-button">login</button>
+                </form>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28223%2C227%2C231%2C1%29&t=cobalt&wt=none&l=django&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%2520%253Cform%2520class%253D%2522form%2522%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-input%2522%2520id%253D%2522primary-input%2522%2520type%253D%2522email%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520name%253D%2522email-id%2522%2520placeholder%253D%2522Enter%2520Your%2520Email-Id%2522%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-input%2522%2520type%253D%2522password%2522%2520name%253D%2522password%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520Your%2520Password%2522%253E%250A%2520%2509%2509%253Cbutton%2520class%253D%2522primary-button%2520error-button%2522%253Elogin%253C%252Fbutton%253E%250A%2509%253C%252Fform%253E"
+                style="width: 800px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <br>
+
+            <h2 class="input-heading">Error Form Input</h2>
+            <br>
+            <div class="textarea-container">
+                <h3 class="alert">Enter correct Email and Password</h3>
+                <form class="form">
+                    <input class="form-input" id="primary-input" type="email" name="email-id"
+                        placeholder="Enter Your Email-Id">
+                    <input class="form-input" type="password" name="password" placeholder="Enter Your Password">
+                    <button class="primary-button error-button">login</button>
+                </form>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28223%2C227%2C231%2C1%29&t=cobalt&wt=none&l=django&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cform%2520class%253D%2522form%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-input%2522%2520id%253D%2522primary-input%2522%2520type%253D%2522email%2522%2520%2509%2509%2509%2509%2509%2509name%253D%2522email-id%2522placeholder%253D%2522Enter%2520Your%2520Email-Id%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-input%2522%2520type%253D%2522password%2522%2520name%253D%2522password%2522%2520%2509%2509%2509%2509%2509%2509placeholder%253D%2522Enter%2520Your%2520Password%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primary-button%2520error-button%2522%253Elogin%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E"
+                style="width: 800px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <br>
+        </div>
+
+        <!---------------------------------main context end------------------->
+
+    </div>
+    <!---------------------------------------------------------footer starts----------------------------->
+    <footer class="footer">
+
+        <h3>Made with ❤️ by shubham</h3>
+        <h4>connect with me 👇 </h4>
+
+        <a href="https://github.com/Shubhamkr2610" target="_blank" class="social-link">github<i
+                class="fab fa-github-square"></i></a>
+        <a href="https://twitter.com/shubhamkr_26" target="_blank" class="social-link">twitter<i
+                class="fab fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com/i_subhu/" target="_blank" class="social-link">instagram<i
+                class="fab fa-instagram"></i></a>
+
+    </footer>
+    <!-----------------------------------------------------------footer ends------------------------------->
+
+</body>
+
+</html>
