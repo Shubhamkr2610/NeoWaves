@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="card.css">
+    <script src="https://kit.fontawesome.com/0b2d218a52.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-------------------------------------------header starts------------------------------------->
+    <div class="home-container">
+        <nav class="nav">
+            <div class="nav-logo">
+                <i class="fab fa-neos"></i>
+                <h3 class="logo-letter">E<i class="fab fa-uikit"></i>S-UI</h3>
+            </div>
+
+            <div class="nav-link">
+                <a class="header-button" href="/" id="active-button">Home</a>
+                <a class="header-button" href="/">Documentation</a>
+                <a class="header-button" href="https://github.com/Shubhamkr2610/NeoWaves" target="_blank">View
+                    Source</a>
+            </div>
+
+        </nav>
+
+    </div>
+    <!------------------------------------------header ends------------------------------------------>
+
+    <!-----------------------------sidebar left starts---------------------->
+    <div class="aside-main-container">
+
+        <aside class="aside-left">
+
+            <div class="aside-container ">
+                <h3 class="aside">Getting Started</h3>
+
+                <ul class="aside-left-list">
+                    <li class="aside-link">
+                        <a class="sidebar-link" href="#">Installation</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="sidebar">
+                <h3 class="aside">Components</h3>
+
+                <ul class="aside-left-list">
+                    <li class="aside-link"><a href="/components/alert/alert.html" class="sidebar-link">Alert</a></li>
+
+                    <li class="aside-link"> <a href="/components/avatar/avatar.html" class="sidebar-link">Avater</a></li>
+
+                    <li class="aside-link"> <a href="/components/badge/badge.html" class="sidebar-link">Badge</a></li>
+
+                    <li class="aside-link"> <a href="/components/button/button.html" class="sidebar-link">Button</a>
+                    </li>
+
+                    <li class="aside-link"> <a href="/components/card/card.html" class="sidebar-link">Card</a></li>
+
+                    <li class="aside-link"> <a href="/components/image/image.html" class="sidebar-link">Image</a></li>
+
+                    <li class="aside-link"> <a href="/components/input/input.html" class="sidebar-link">Forms</a></li>
+                </ul>
+            </div>
+        </aside>
+        <hr>
+        <!----------------------------------sidebar left ends------------------->
+        <!---------------------------------main context start------------------->
+        <div class="card-container">
+            <h1>Card</h1>
+            <p class="description">Cards can be proved very useful. You can use them to display content on an e-commerce app.</p>
+            <p class="description">You can also use them to show user feedback in the form of text-only card on your site.</p>
+            <hr>
+             <!--card with badge-->
+
+            <h1>Card with badge</h1>
+            <div class="card-vertical">
+
+                <div class="card-vertical-header">
+                    <span class="status-badge">In stock</span>
+                    
+                </div>
+                <img src="/assets/images/card-img(2).jfif" alt="shoe image" class="card-vertical-img">
+                <h1 class="card-head">Nike airforce </h1>
+                <p class="card-text">Designed by Bruce Kilgore and introduced in 1982, the Air Force 1 was the first ever basketball shoe to feature Nike Air technology</p>
+
+                <div class="card-vertical-footer">
+                    <span class="current-price">
+                    <strong>₹500</strong>
+                    </span>
+                    <span class="earlier-price">₹2000</span>
+                    <span class="price-off">(75% off)</span>
+                </div>
+
+            </div>
+
+
+                <!--card with dismiss-->
+
+
+            <h1>Card with dismiss button</h1>
+
+            <div class="card-vertical">
+                
+
+                <div class="card-vertical-header">
+                    <span class="status-badge">In stock</span>
+                    <span class="badge-dismiss">X</span>
+                </div>
+                <img src="/assets/images/card-img(2).jfif" alt="shoe image" class="card-vertical-img">
+                <h1 class="card-head">Nike airforce </h1>
+                <p class="card-text">Designed by Bruce Kilgore and introduced in 1982, the Air Force 1 was the first ever basketball shoe to feature Nike Air technology</p>
+                <div class="footer-button">
+                    <button class="primary-button">Buy Now</button>
+                    <button class="primary-button">Add to cart</button>
+                </div>
+
+            </div>
+
+            <!--card with out of stock-->
+            <h1>Out of stock card</h1>
+            <div class="card-vertical out-of-stock-card">
+                
+
+                <div class="card-vertical-header ">
+                    <span class="status-badge">Coming</span>
+                    <span class="badge-dismiss">X</span>
+                </div>
+                <img src="/assets/images/card-img(2).jfif" alt="shoe image" class="card-vertical-img ">
+                
+                <h1 class="card-head">Nike airforce </h1>
+                <p class="card-text">Designed by Bruce Kilgore and introduced in 1982, the Air Force 1 was the first ever basketball shoe to feature Nike Air technology</p>
+                <div class="footer-button">
+                    <button class="primary-button">Buy Now</button>
+                    <button class="primary-button">Add to cart</button>
+                </div>
+                <div class="outstock">
+                    <span class="overlay-text">OUT OF STOCK</span>
+                </div>
+
+            </div>
+            <!--horizontal card-->
+
+            <h1>Horizontal card</h1>
+
+            <div class="card-horizontal">
+                
+
+                <!-- <div class="card-vertical-header">
+                    <span class="status-badge">In stock</span>
+                    <span class="badge-dismiss">X</span>
+                </div> -->
+                <div class="horizonal-image"> 
+                    <img src="/assets/images/card-img(2).jfif" alt="" class="card-vertical-img">
+                </div>
+               <div class="horizontal-description">
+                <h1 class="card-head">Nike airforce </h1>
+                <p class="card-text">Designed by Bruce Kilgore and introduced in 1982, the Air Force 1 was the first ever basketball shoe to feature Nike Air technology</p>
+               </div>
+                
+                <div class="footer-button">
+                    <button class="primary-button">Buy Now</button>
+                    <button class="primary-button">Add to cart</button>
+                </div>
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+        <!---------------------------------main context end------------------->
+
+    </div>
+
+    <!---------------------------------------------------------footer starts----------------------------->
+    <footer class="footer">
+
+        <h3>Made with ❤️ by shubham</h3>
+        <h4>connect with me 👇 </h4>
+
+        <a href="https://github.com/Shubhamkr2610" target="_blank" class="social-link">github<i
+                class="fab fa-github-square"></i></a>
+        <a href="https://twitter.com/shubhamkr_26" target="_blank" class="social-link">twitter<i
+                class="fab fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com/i_subhu/" target="_blank" class="social-link">instagram<i
+                class="fab fa-instagram"></i></a>
+
+    </footer>
+    <!-----------------------------------------------------------footer ends------------------------------->
+</body>
+
+</html>
