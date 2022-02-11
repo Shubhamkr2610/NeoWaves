@@ -133,5 +133,19 @@ body {
 /* css for horizontal card*/
 
 .card-horizontal{
-    display: flex;
+    border: 5px solid blue;
+    width: 30rem;
 }
+ .card-horizontal-container{ 
+     display: flex; 
+     /* flex-direction: column; */
+ } 
+
+ .card-horizontal-img{
+     width: 12rem;
+     height: 100%;
+ }
+ .horizontal-button{
+     margin-left: 1rem;
+     margin-top: 6rem;
+ }
