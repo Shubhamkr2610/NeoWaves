@@ -36,7 +36,7 @@ body {
 
 .status-badge {
     background-color: var(--info-color);
-    color: white;
+    color: var(--button-secondary-color);
     margin-right: auto;
     font-size: 1.25rem;
 }
@@ -88,7 +88,7 @@ body {
 
 .primary-button {
     background-color: var(--danger-color);
-    color: white;
+    color: var(--button-secondary-color);
     margin-top: 10px;
     width: 40%;
     font-size: 1.25rem;
@@ -110,8 +110,6 @@ body {
     position: absolute;
     top: 0;
     left: o;
-    /* background-color: grey; */
-    /* opacity: 0.2; */
     text-align: center;
 
 }
@@ -119,33 +117,48 @@ body {
 .overlay-text {
     display: block;
     margin-top: 50%;
-    background-color: rgb(240, 243, 242);
-    color: rgb(0, 0, 0);
+    background-color: var(--button-secondary-color);
+    color: var(--border-color);
     font-weight: 900;
-    /* opacity: 0.2; */
-    /* position: absolute; */
-    /* top: 50%; */
-    /* right: 15%; */
 
 }
 
 
 /* css for horizontal card*/
 
-.card-horizontal{
-    border: 5px solid blue;
+.card-horizontal {
+    border: 2px solid;
     width: 30rem;
-}
- .card-horizontal-container{ 
-     display: flex; 
-     /* flex-direction: column; */
- } 
+    margin-bottom: 2rem;
 
- .card-horizontal-img{
-     width: 12rem;
-     height: 100%;
- }
- .horizontal-button{
-     margin-left: 1rem;
-     margin-top: 6rem;
- }
+}
+
+.card-horizontal-container {
+    display: flex;
+}
+
+.card-horizontal-img {
+    width: 12rem;
+    height: 100%;
+}
+
+.horizontal-button {
+    margin-left: 1rem;
+    margin-top: 3rem;
+}
+
+/* css for text card*/
+
+.vertical-text-card {
+    height: 18rem;
+}
+
+.text-card-button {
+    margin-top: 3rem;
+    background-color: var(--danger-color);
+    color: var(--button-secondary-color);
+    margin-top: 10px;
+    width: 40%;
+    font-size: 1.25rem;
+    border: 1px solid var(--border-color);
+}
