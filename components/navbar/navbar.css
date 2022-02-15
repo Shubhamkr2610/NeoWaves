@@ -1,0 +1,9 @@
+@import url("/index.css");
+@import url("/components/sidebar.css");
+
+body {
+    background-image: none;
+}
+.nav-container{
+    display: flex;
+}
