@@ -4,6 +4,44 @@
 body {
     background-image: none;
 }
+
+.component-container{
+    margin-left: 5rem;
+}
+
+.component-description{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
 .nav-container{
-    display: flex;
+    border: 2px solid black;
+    /* display: inline; */
+    /* overflow: auto; */
+}
+.nav-heading {
+    display: inline;
+}
+.brand-name{
+    display: inline;
+}
+.nav-search{
+    display: inline;
+    margin-left: 15rem;
+}
+.search-button{
+    display: inline;
+    /* margin: auto; */
+}
+.shubham{
+    /* width: 5rem; */
+    display: inline;
+    float: right;
+    /* overflow: auto; */
+}
+.nav-links{
+    display: inline;
+}
+.nav-icons{
+    display: inline;
 }
