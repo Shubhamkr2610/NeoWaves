@@ -5,43 +5,101 @@ body {
     background-image: none;
 }
 
-.component-container{
+.component-container {
     margin-left: 5rem;
 }
 
-.component-description{
+.component-description {
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
-.nav-container{
+
+.nav-container {
     border: 2px solid black;
-    /* display: inline; */
-    /* overflow: auto; */
+    border-radius: 5px;
+    width: 95%;
+    height: 4rem;
+    text-align: center;
+
+    margin: 3rem 0rem;
+    /* box-shadow: rgb(148, 81, 81); */
 }
+
 .nav-heading {
+    
+
+    font-size: 1.25rem;
     display: inline;
 }
-.brand-name{
+
+.brand-name {
+    color: var(--info-color);
+    font-family: 'Syne Tactile';
+    margin-top: 10px;
+    margin-left: 1rem;
     display: inline;
+    float: left;
 }
-.nav-search{
-    display: inline;
-    margin-left: 15rem;
+
+.nav-search {
+    display: inline-block;
 }
-.search-button{
-    display: inline;
-    /* margin: auto; */
+
+.search-input-box {
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    padding-left: 5px;
 }
-.shubham{
-    /* width: 5rem; */
+
+.search-button {
+    display: inline-block;
+}
+
+.search-button a {
+    color: var(--info-color);
+}
+
+.link-container {
+    margin-top: 1rem;
+    margin-right: 1rem;
     display: inline;
     float: right;
-    /* overflow: auto; */
 }
-.nav-links{
+
+.nav-links {
+    display: inline;
+
+}
+
+.nav-links a {
+    border: 1px solid;
+    border-radius: 5px;
+    color: var(--info-color);
+    padding: 4px;
+}
+
+.nav-links a:hover {
+    color: var(--button-secondary-color);
+    background-color: var(--info-color);
+
+}
+
+.nav-icons {
     display: inline;
 }
-.nav-icons{
-    display: inline;
+
+.nav-icons a {
+    border: 1px solid;
+    border-radius: 5px;
+    color: var(--info-color);
+    margin: 0px 2px;
+    padding: 4px;
+}
+
+.nav-icons a:hover {
+    color: var(--button-secondary-color);
+    background-color: var(--info-color);
 }
