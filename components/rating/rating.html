@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neos-UI | rating</title>
+    <link rel="stylesheet" href="rating.css">
+    <script src="https://kit.fontawesome.com/0b2d218a52.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-------------------------------------------header starts------------------------------------->
+    <div class="home-container">
+        <nav class="nav">
+            <div class="nav-logo">
+                <i class="fab fa-neos"></i>
+                <h3 class="logo-letter">E<i class="fab fa-uikit"></i>S-UI</h3>
+            </div>
+
+            <div class="nav-link">
+                <a class="header-button" href="/" id="active-button">Home</a>
+                <a class="header-button" href="/">Documentation</a>
+                <a class="header-button" href="https://github.com/Shubhamkr2610/NeoWaves" target="_blank">View
+                    Source</a>
+            </div>
+
+        </nav>
+
+    </div>
+    <!------------------------------------------header ends------------------------------------------>
+
+    <!-----------------------------sidebar left starts---------------------->
+    <div class="aside-main-container">
+
+        <aside class="aside-left">
+
+            <div class="aside-container ">
+                <h3 class="aside">Getting Started</h3>
+
+                <ul class="aside-left-list">
+                    <li class="aside-link">
+                        <a class="sidebar-link" href="#">Installation</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="sidebar">
+                <h3 class="aside">Components</h3>
+
+                <ul class="aside-left-list">
+                    <li class="aside-link"><a href="/components/alert/alert.html" class="sidebar-link">Alert</a></li>
+
+                    <li class="aside-link"> <a href="/components/avatar/avatar.html" class="sidebar-link">Avater</a>
+                    </li>
+
+                    <li class="aside-link"> <a href="/components/badge/badge.html" class="sidebar-link">Badge</a></li>
+
+                    <li class="aside-link"> <a href="/components/button/button.html" class="sidebar-link">Button</a>
+                    </li>
+
+                    <li class="aside-link"> <a href="/components/card/card.html" class="sidebar-link">Card</a></li>
+
+                    <li class="aside-link"> <a href="/components/image/image.html" class="sidebar-link">Image</a></li>
+
+                    <li class="aside-link"> <a href="/components/input/input.html" class="sidebar-link">Forms</a></li>
+
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Navbar</a></li>
+
+                    <li class="aside-link"> <a href="/components/rating/rating.html" class="sidebar-link">Rating</a>
+                    </li>
+
+                    <li class="aside-link"> <a href="#" class="sidebar-link">Text utility</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <hr>
+        <!----------------------------------sidebar left ends------------------->
+
+        <!---------------------------------main context start------------------->
+        <main class="component-container">
+            <h2 class="component-heading">Rating</h2>
+            <p class="component-description">Rating shows the opinion of others and their experience with the product,
+                you can use
+                stars or other custom icons in it.</p>
+            <div class="star-container">
+                <div class="star-icon">
+                    <i class="fa fa-star-o fa-2x"></i>
+                    <i class="fa fa-star-o fa-2x"></i>
+                    <i class="fa fa-star-o fa-2x"></i>
+                    <i class="fa fa-star-o fa-2x"></i>
+                    <i class="fa fa-star-o fa-2x"></i>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28223%2C227%2C231%2C1%29&t=cobalt&wt=none&l=django&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2520%253Cdiv%2520class%253D%2522star-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star-o%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star-o%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star-o%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star-o%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star-o%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 800px; height: 354px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </main>
+
+        <!---------------------------------main context end------------------->
+
+    </div>
+
+    <!---------------------------------------------------------footer starts----------------------------->
+    <footer class="footer">
+
+        <h3>Made with ❤️ by shubham</h3>
+        <h4>connect with me 👇 </h4>
+
+        <a href="https://github.com/Shubhamkr2610" target="_blank" class="social-link">github<i
+                class="fab fa-github-square"></i></a>
+        <a href="https://twitter.com/shubhamkr_26" target="_blank" class="social-link">twitter<i
+                class="fab fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com/i_subhu/" target="_blank" class="social-link">instagram<i
+                class="fab fa-instagram"></i></a>
+
+    </footer>
+    <!-----------------------------------------------------------footer ends------------------------------->
+
+</body>
+
+</html>
