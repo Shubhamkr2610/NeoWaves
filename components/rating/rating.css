@@ -1,0 +1,40 @@
+@import url("/index.css");
+@import url("/components/sidebar.css");
+
+body {
+    background-image: none;
+}
+
+.component-container {
+    margin-left: 5rem;
+}
+.component-description{
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.star-container{
+    text-align: center;
+    width: 70%;
+    height: 5rem;
+    border: 1px solid var(--border-color);
+    box-shadow: 1px 1px 2px 2px var(--alert-secondary-color);
+    margin: auto;
+    margin-bottom: 2rem;
+    float: left;
+}
+.star-container:hover{
+    box-shadow: 2px 2px 4px 4px  var(--alert-secondary-color);
+}
+.star-icon{
+    border: 1px solid ;
+    width: 50%;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.star-icon .fa:hover{
+    cursor: pointer;
+    color: var(--info-color);
+}
