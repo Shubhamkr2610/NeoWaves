@@ -9,7 +9,11 @@ body{
     background-image: none;
 }
 
-
+.description {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
 .alert-content{
     margin-left: 5%;
 }
@@ -17,8 +21,9 @@ body{
     text-align: center;
     padding: 0rem 1.25rem 0 1.25rem;
     height: 3.5rem;
-    width: 30rem;
+    width: 50rem;
     margin-top: 1rem;
+    font-size: 2rem;
 }
 
 .alert-success{
