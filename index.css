@@ -14,8 +14,7 @@
     --alert-primary-color:#29438b;
     --alert-secondary-color:#696b79;
     --form-color: #cbf3fa;
-    --border-color: #000000;
-    
+    --border-color: #000000;   
 }
 
 * {
@@ -40,17 +39,20 @@ main{
     width: 100%;
     background-color: var(--header-color);
     border: 2px solid var(--secondary-color);
-    border-radius: 0px 0px 0px 50px;
+    border-radius: 0rem 0rem 0rem 3rem;
     display: flex;
-
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-
+.nav{
+    width: 100%;
+}
 .home-container .nav .nav-logo {
     margin-top: 30px;
     display: flex;
     font-size: 75px;
-    color: white;
+    color: var(--button-secondary-color);
     margin-left: 50px;
 }
 .home-container .nav .nav-logo .logo-letter {
@@ -58,67 +60,48 @@ main{
     font-size: 75px;
 }
 
-
 .home-container .nav .nav-link .header-button{
     background-color: var(--secondary-color);
     text-decoration: none;
-    color: white;
+    color: var(--button-secondary-color);
     border: 2px solid var(--primary-color);
     padding: 15px;
     border-radius: 10px;
 }
 .home-container .nav .nav-link {
-    height: 100px;
-    color: white;
-    margin-left: 1100px;
-    margin-top: -60px;
+    height: 6rem;
+    color: var(--button-secondary-color);
+    display: inline;
+    float: right; 
+    margin-top: -3.5rem;
 }
 
-
-
 .home-container .nav .nav-link .header-button:hover {
-    background-color: white;
+    background-color: var(--button-secondary-color);
     border-color: var(--secondary-color);
     color: var(--primary-color);
     box-shadow: 1px 2px 1px var(--primary-color);
-
-}
-
-.home-container .nav .nav-link .header-button:active {
-    background-color: var(--button-color);
-
-}
-
-#active-button {
-    background-color: var(--button-color);
-    color: white;
-    box-shadow: 1px 2px 1px var(--primary-color);
-}
-
-#active-button:hover {
-    color: var(--primary-color);
-
 }
 
 .main-container {
     display: flex;
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-top: 5rem;
+    margin-left: 3.25rem;
     text-align: left;
 }
 
 .main-container .main-text {
-    color: white;
+    color: var(--button-secondary-color);
 }
 
 .context-description {
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 .main-container .main-text .primary-button {
     font-size: 20px;
-    margin: 70px;
+    margin: 5rem;
     color: var(--primary-color);
     border: 2px solid var(--primary-color);
     padding: 15px;
@@ -128,35 +111,43 @@ main{
 
 .main-container .main-text .primary-button:hover {
     cursor: pointer;
-    background-color: white;
+    background-color: var(--button-secondary-color);
     border-color: var(--secondary-color);
     color: var(--primary-color);
     box-shadow: 1px 2px 1px var(--primary-color);
     padding: 20px;
-
 }
 
 .footer {
-    height: 25vh;
+    height: 20vh;
     width: 100%;
     background-color: var(--header-color);
     border: 2px solid var(--secondary-color);
-    border-radius: 0px 50px 0px 0px;
+    border-radius: 0rem 3rem 0rem 0rem;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    color: white;
+    color: var(--button-secondary-color);
+}
 
+.social-links-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-social-description{
+    font-size: 1.5rem;
 }
 
 .footer .social-link {
-    font-size: 30px;
+    font-size: 2rem;
     text-decoration: none;
-    color: white;
+    color: var(--button-secondary-color);
     margin-left: 10px;
 }
 
 .footer .social-link fab {
     margin-left: 5px;
-    color: white;  
+    color: var(--button-secondary-color);
 }
