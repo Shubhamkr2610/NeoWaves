@@ -1,0 +1,52 @@
+@import url("/index.css");
+@import url("/components/sidebar.css");
+
+body {
+    background-image: none;
+}
+.component-container {
+    margin-left: 5rem;
+}
+.component-description {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.text-utility-container{
+    width: 100%;
+    border: 1px solid var(--border-color);
+    box-shadow: 2px 2px var(--alert-secondary-color);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.text-align p{
+    font-size: 1.5rem;
+ }
+ .text-align{
+     height: 100%;
+     width: 100%;
+ }
+ .centre-align{
+    justify-content: center;
+    align-items: center;
+    margin-left: 25rem;
+ }
+
+ .right-align{
+     margin-left: 50rem;
+ }
+ .paragraph-lg{
+     font-size: 2rem;
+ }
+ .paragraph-rg{
+     font-size: 1.5rem;
+ }
+ .paragraph-md{
+     font-size: 1.25rem;
+ }
+ .paragraph-sm{
+     font-size: 1rem;
+ }
+ .text-heading{
+     margin: 2rem 0 1rem 0rem;
+ }
