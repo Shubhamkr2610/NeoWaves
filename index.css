@@ -15,7 +15,14 @@
     --alert-primary-color:#29438b;
     --alert-secondary-color:#696b79;
     --form-color: #cbf3fa;
-    --border-color: #000000;   
+    --border-color: #000000;  
+    --toast-success-primary: #20A779;
+    --toast-success-secondary: #b5fcca;
+    --toast-warning-primary:#f8aa1c;
+    --toast-warning-secondary:#feebc8;
+    --toast-info-primary:#007bc3;
+    --toast-info-secondary:#bde3f8;
+    --toast-error-secondary:#fed7d7;
 }
 
 * {
