@@ -1,0 +1,60 @@
+@import url("/index.css");
+@import url("/components/sidebar.css");
+
+body {
+    background-image: none;
+}
+
+.component-container {
+    margin-left: 5rem;
+
+}
+.component-heading{
+    margin-bottom: 1rem;
+}
+.component-description {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.list-container {
+    height: auto;
+    width: 90%;
+    padding: 3rem;
+    margin-bottom: 4rem;
+    border: 2px solid var(--border-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#list-square {
+    list-style-type: square;
+}
+
+#list-circle {
+    list-style-type: circle;
+}
+
+#type-upper-roman {
+    list-style-type: upper-roman;
+}
+
+#type-upper-alpha {
+    list-style-type: upper-alpha;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.list-style-none span {
+    list-style: none;
+    font-size: 0.8rem;
+    color: var(--list-text-color);
+}
+
+.text-w-700 {
+    font-weight: 700;
+}

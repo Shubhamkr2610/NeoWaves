@@ -23,12 +23,12 @@
     --toast-info-primary:#007bc3;
     --toast-info-secondary:#bde3f8;
     --toast-error-secondary:#fed7d7;
+    --list-text-color:#adadad;
 }
 
 * {
     padding: 0;
     margin: 0;
-    list-style: none;
     text-decoration: none;
     box-sizing: border-box;
 }
