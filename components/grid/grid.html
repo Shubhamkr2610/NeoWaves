@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neos-UI | Grid</title>
+    <link rel="stylesheet" href="grid.css">
+    <script src="https://kit.fontawesome.com/0b2d218a52.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-------------------------------------------header starts------------------------------------->
+    <div class="home-container">
+        <nav class="nav">
+            <div class="nav-logo">
+                <i class="fab fa-neos"></i>
+                <h3 class="logo-letter">E<i class="fab fa-uikit"></i>S-UI</h3>
+            </div>
+
+            <div class="nav-link">
+                <a class="header-button" href="/index.html" id="active-button">Home</a>
+                <a class="header-button" href="/components/installation/installation.html">Documentation</a>
+                <a class="header-button" href="https://github.com/Shubhamkr2610/NeoWaves" target="_blank">View
+                    Source</a>
+            </div>
+
+        </nav>
+
+    </div>
+    <!------------------------------------------header ends------------------------------------------>
+    <!-----------------------------sidebar left starts---------------------->
+    <div class="aside-main-container">
+
+        <aside class="aside-left">
+
+            <div class="aside-container ">
+                <h3 class="aside">Getting Started</h3>
+
+                <ul class="aside-left-list">
+                    <li class="aside-link">
+                        <a class="sidebar-link" href="/components/installation/installation.html">Installation</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="sidebar">
+                <h3 class="aside">Components</h3>
+
+                <ul class="aside-left-list">
+                    <li class="aside-link"><a href="/components/alert/alert.html" class="sidebar-link">Alert</a></li>
+
+                    <li class="aside-link"> <a href="/components/avatar/avatar.html" class="sidebar-link">Avatar</a>
+                    </li>
+
+                    <li class="aside-link"> <a href="/components/badge/badge.html" class="sidebar-link">Badge</a></li>
+
+                    <li class="aside-link"> <a href="/components/button/button.html" class="sidebar-link">Button</a>
+                    </li>
+
+                    <li class="aside-link"> <a href="/components/card/card.html" class="sidebar-link">Card</a></li>
+
+                    <li class="aside-link"> <a href="/components/image/image.html" class="sidebar-link">Image</a></li>
+
+                    <li class="aside-link"> <a href="/components/input/input.html" class="sidebar-link">Forms</a></li>
+
+                    <li class="aside-link"> <a href="/components/navbar/navbar.html" class="sidebar-link">Navbar</a>
+                    </li>
+
+                    <li class="aside-link"> <a href="/components/rating/rating.html" class="sidebar-link">Rating</a>
+                    </li>
+
+                    <li class="aside-link"> <a href="/components/text-utility/text-utility.html"
+                            class="sidebar-link">Text utility</a>
+                    </li>
+
+                    <li class="aside-link"> <a href="/components/modal/modal.html" class="sidebar-link">Modal</a>
+                    </li>
+
+                    <li class="aside-link"> <a href="/components/toast/toast.html" class="sidebar-link">Toast</a>
+                    </li>
+
+                    <li class="aside-link"> <a href="/components/list/list.html" class="sidebar-link">List</a>
+                    </li>
+
+                    <li class="aside-link"> <a href="/components/grid/grid.html" class="sidebar-link">Grid</a>
+                    </li>
+
+                </ul>
+            </div>
+        </aside>
+        <hr>
+        <!----------------------------------sidebar left ends------------------->
+        <main class="component-container">
+            <h2 class="component-heading">Grid</h2>
+            <p class="component-description">Grids are one of the best ways to create responsive layouts for your
+                website.
+            </p>
+
+            <h2>Two item grid</h2>
+
+            <div class="grid-container">
+
+                <div class="grid grid-area1">
+                    <div class="grid-item1 grid-color">item1</div>
+                    <div class="grid-item2 grid-color">item2</div>
+                    <div class="grid-item3 grid-color">item3</div>
+                    <div class="grid-item4 grid-color">item4</div>
+                    <div class="grid-item5 grid-color">item5</div>
+                    <div class="grid-item6 grid-color">item6</div>
+                </div>
+            </div>
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28223%2C227%2C231%2C1%29&t=cobalt&wt=none&l=django&width=900&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2509%2509%253Cdiv%2520class%253D%2522grid-area1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item1%2520grid-color%2522%253Eitem1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item2%2520grid-color%2522%253Eitem2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item3%2520grid-color%2522%253Eitem3%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item4%2520grid-color%2522%253Eitem4%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item5%2520grid-color%2522%253Eitem5%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item6%2520grid-color%2522%253Eitem6%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 900px; height: 319px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+
+            <h2>Three item grid</h2>
+            <div class="grid-container">
+
+                <div class="grid grid-area2">
+                    <div class="item1 grid-color">item1</div>
+                    <div class="item2 grid-color">item2</div>
+                    <div class="item3 grid-color">item3</div>
+                    <div class="item4 grid-color">item4</div>
+                    <div class="item5 grid-color">item5</div>
+                    <div class="item6 grid-color">item6</div>
+                    <div class="item7 grid-color">item7</div>
+                    <div class="item8 grid-color">item8</div>
+                    <div class="item9 grid-color">item9</div>
+                </div>
+            </div>
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28223%2C227%2C231%2C1%29&t=cobalt&wt=none&l=django&width=900&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%253Cdiv%2520class%253D%2522grid-area2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item1%2520grid-color%2522%253Eitem1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item2%2520grid-color%2522%253Eitem2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item3%2520grid-color%2522%253Eitem3%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item4%2520grid-color%2522%253Eitem4%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item5%2520grid-color%2522%253Eitem5%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item6%2520grid-color%2522%253Eitem6%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item7%2520grid-color%2522%253Eitem7%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item8%2520grid-color%2522%253Eitem8%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item9%2520grid-color%2522%253Eitem9%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 900px; height: 375px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </main>
+    </div>
+
+    <!---------------------------------main context end------------------->
+
+    <!---------------------------------------------------------footer starts----------------------------->
+    <footer class="footer">
+        <p class="footer-social-description">Made with ❤️ by shubham</h3>
+            <p class="footer-social-description">connect with me 👇 </h4>
+                <div class="social-links-container">
+
+                    <a href="https://github.com/Shubhamkr2610" target="_blank" class="social-link"><i
+                            class="fab fa-github-square"></i></a>
+                    <a href="https://twitter.com/shubhamkr_26" target="_blank" class="social-link"><i
+                            class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/i_subhu/" target="_blank" class="social-link"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/i_subhu/" target="_blank" class="social-link"><i
+                            class="fab fa-linkedin"></i></a>
+
+                </div>
+
+    </footer>
+    <!-----------------------------------------------------------footer ends------------------------------->
+</body>
+
+</html>
