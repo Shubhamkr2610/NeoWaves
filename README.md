@@ -1,6 +1,16 @@
 
 <div align="center">
-
+  
+---
+  
+  Link of ReadMe.md file 👇 for P1 components 
+  
+[ COMMENT.md file ]( https://github.com/Shubhamkr2610/NeoWaves/blob/temp-dev/comment.md )
+ 
+  Read about what I am submitting in week three submission 
+ 
+---
+  
 # [Neos-UI](https://neos-ui.netlify.app/) 
   
 ### Component Library to build UI faster. <br>
