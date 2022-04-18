@@ -1,4 +1,4 @@
-# This is Temp dev branch which contain some component which are left in first round submission ( Week Two submission )
+# This is Temp dev branch which contain some component which are left in first round submission i.e. ( Week Two submission )
 
 ## P1 components which was  left 
 - toast 
@@ -16,4 +16,10 @@
       
       
       
- ## Rest P1 components, I have already submitted in first submission i.e. ( Week Two submission )
+ ## Rest P1 components, I have already submitted in first round  submission i.e. ( Week Two submission )
+
+list of P1 features that I already submitted is :- 👇
+
+            Text Utilities
+            Navigation
+            Rating (for eCommerce)
